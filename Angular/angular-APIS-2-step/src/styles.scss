@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url(./styles/reset.scss);
+@import '~swiper/css/bundle';
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  background-color: teal;
+}
+
+.products--grid {
+  app-img {
+    img {
+      border-radius: 10px;
+      max-height: 200px;
+    }
+  }
+}
+
+.buttonWarn {
+  display: table-cell !important;
+  max-width: 600px;
+  margin: 8px 8px 8px 0;
+}
